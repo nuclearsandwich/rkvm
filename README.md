@@ -12,7 +12,7 @@ Switching between different clients is done by a configurable keyboard shortcut.
 - Low overhead
 
 ## Requirements
-- Rust 1.48 and higher
+- Rust 1.65 and higher
 - The uinput Linux kernel module, enabled by default in most distros. You can confirm that it's enabled in your distro by checking that `/dev/uinput` exists.
 - libevdev development files (`sudo apt install libevdev-dev` on Debian/Ubuntu)
 - Clang/LLVM (`sudo apt install clang` on Debian/Ubuntu)
